@@ -18,7 +18,7 @@ const Container = () => {
             <Button backColor="green" text="+" click={changeCount} />
             <Button backColor="red" text="-" click={changeCount2} />
             {/* <button onClick={changeCount}>Increment</button> */}
-            <div>{count}</div>
+            <div className='bg-slate-200'>{count}</div>
         </div>
     );
 }
