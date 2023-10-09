@@ -1,19 +1,12 @@
-import Calculator from "./components/calculator";
-import Container from "./components/container";
-import Footer from "./components/footer";
-import Navbar from "./components/navbar";
+import {ContainerF, ContainerC} from "./components/container-class";
 
 
 
 function App() {
   return (
     <div>
-      <Container/>
-  
-      {/* <Navbar/>
-      <div>Content</div>
-      <Footer/> */}
-      {/* <Navbar /> */}
+      <ContainerF color="green"/>
+      <ContainerC color="red" colo2="blue"/>
     </div>
   );
 }
